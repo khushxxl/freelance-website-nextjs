@@ -18,7 +18,7 @@ const Business = () => {
       <div className="grid mt-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:space-x-4 items-center place-content-center place-items-center">
         {businessData.map((data) => {
           return (
-            <div>
+            <div key={data.id}>
               <div className="m-7 flex items-center justify-center flex-col text-center ">
                 <Image
                   src={data.image}
