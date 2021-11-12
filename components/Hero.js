@@ -28,7 +28,7 @@ const Hero = () => {
       <div className="mt-10 md:mt-0">
         <Image
           layout="fixed"
-          src={require("../images/image 2.png")}
+          src={require("../images/Image 2.png")}
           height={210}
           width={210}
         />
