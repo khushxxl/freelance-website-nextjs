@@ -20,7 +20,7 @@ const Projects = () => {
                   <img
                     src={data.image}
                     alt=""
-                    className="h-48  p-1 border-2 border-yellow-600 rounded-xl"
+                    className="h-48  p-1 border-2 border-yellow-600 rounded-xl cursor-pointer"
                   />
                 </Link>
 
