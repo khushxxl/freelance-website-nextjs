@@ -1,0 +1,5 @@
+@layer base {
+  .li {
+    @apply hover:text-red-600 font-semibold mr-5;
+  }
+}
